@@ -13,7 +13,7 @@ function Events() { }
  * Create a new EventsEvent object.
  * @return {EventsEvent}
  */
-Events.prototype.utility = function() {
+Events.prototype.event = function() {
   return new EventsEvent();
 }
 
